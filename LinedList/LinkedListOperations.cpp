@@ -20,6 +20,7 @@ void insertAtHead(Node* &head, int d){
 
 void printLL(Node* &head){
     Node* temp = head;
+    cout<<"Printing Linked List : "<< endl;
 
     while (temp!=NULL)
     {
