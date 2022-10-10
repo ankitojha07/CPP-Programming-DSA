@@ -12,10 +12,21 @@ class Node{
     }
 };
 
+
+// insertion operations 
+
+// insert at head
 void insertAtHead(Node* &head, int d){
     Node* temp = new Node(d);
     temp->next = head;
     head=temp;
+}
+
+// insert at tail 
+void insertAtTail(Node* &tail, int d){
+    Node* temp = new Node(d);
+    tail ->next = temp;
+    tail = temp;
 }
 
 void printLL(Node* &head){
@@ -35,9 +46,19 @@ void printLL(Node* &head){
 int main(int argc, char const *argv[])
 {
     Node* n1 = new Node(10);
+    Node* head = n1;
+    Node* tail = n1;
+
     cout<< n1->data<<endl;
 
-    insertAtHead(n1,12);
+    // insert at head call 
+    insertAtHead(head, 19);
+    printLL(n1);
+
+    // insert at tail call : 
+    insertAtTail(tail,13);
+    printLL(n1);
+    insertAtTail(tail,15);
     printLL(n1);
     return 0;
 }
