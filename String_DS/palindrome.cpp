@@ -13,11 +13,20 @@ string naiveApproach(string s)
 
 string bestApproach(string s)
 {
+    int start = 0, end = s.length() - 1;
+    while (start < end)
+    {
+        if (s[start] != s[end])
+            return "No";
+        start++;
+        end--;
+    }
+    return "Yes";
 }
 int main()
 {
     string s;
     cin >> s;
-    cout << naiveApproach(s);
+    cout << bestApproach(s);
     return 0;
 }
