@@ -32,12 +32,19 @@ int y = x;  // here y is a new bucket created with the value of x
 
 // but, if we do
 int &z = x; // here z is not a new bucket it will just start pointing to the same bucket as the x
+// one more thing whenever you are creating a reference variable you have to declare it at same time, it can't be declared later
 
 cout<< &x<< endl << &z << endl; // it will give the same value
 
 // buttttt, if we try to prnt the address of x & y, then it will not be the same
 
 cout << &x << " " << &y << endl;
+
+int test = 123;
+
+int *test2 = &test;
+
+cout << *test2 << endl;
 
 
 
