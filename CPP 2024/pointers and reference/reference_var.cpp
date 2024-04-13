@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
     int d = 200, c = 100;
     int &a = d;
