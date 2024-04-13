@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc, char const *argv[])
+#define TWO 2;
+
+int main()
 {
-    cout << "Testing basic setup";
+    cout << TWO;
+    int a = 24;
+    int result = TWO * a;
     return 0;
 }
