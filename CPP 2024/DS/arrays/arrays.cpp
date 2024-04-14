@@ -1,5 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
+// passing array to a function
+void printArray(int arr[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+}
 
 int main()
 {
@@ -9,5 +17,9 @@ int main()
     {
         cout << arr[i] << " ";
     }
+
+    cout << endl;
+
+    printArray(arr, n);
     return 0;
 }
