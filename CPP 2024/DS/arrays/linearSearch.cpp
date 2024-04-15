@@ -5,7 +5,7 @@ int main()
 {
     int arr[] = {78, 6, 96, 25, 3};
     int n = sizeof(arr) / sizeof(int);
-    int num = 3;
+    int num = 78;
     int res = 0;
     for (int i = 0; i < n; i++)
     {
