@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 // passing array to a function
 void printArray(int arr[], int n)
