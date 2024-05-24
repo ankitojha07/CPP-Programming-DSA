@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int secLarge(int arr[], int n)
+{
+    int largest = arr[0];
+    int secondLargest = -1;
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] > largest)
+            largest = arr[i];
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] > secondLargest && arr[i] != largest)
+        {
+            secondLargest = arr[i];
+        }
+    }
+
+    cout << "Second Largest Element in array is : " << secondLargest << endl;
+    return largest;
+}
+
+int main()
+{
+    int arr[] = {2, 4, 6, 13, 11};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int largestElement = secLarge(arr, n);
+    cout << "Largest Element in Array is :  " << largestElement << endl;
+}
