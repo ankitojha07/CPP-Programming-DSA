@@ -5,19 +5,29 @@ int secLarge(int arr[], int n)
 {
     int largest = arr[0];
     int secondLargest = -1;
+
+    // by using below code we are solving this problem in TC= O(n)
     for (int i = 0; i < n; i++)
     {
         if (arr[i] > largest)
+        {
+            secondLargest = largest;
             largest = arr[i];
-    }
-
-    for (int i = 0; i < n; i++)
-    {
-        if (arr[i] > secondLargest && arr[i] != largest)
+        }
+        else if (arr[i] < largest && arr[i] > secondLargest)
         {
             secondLargest = arr[i];
         }
     }
+
+    // this below code will cause TC = O(2n) because one loop for largest element is running above and second one is running here
+    // for (int i = 0; i < n; i++)
+    // {
+    //     if (arr[i] > secondLargest && arr[i] != largest)
+    //     {
+    //         secondLargest = arr[i];
+    //     }
+    // }
 
     cout << "Second Largest Element in array is : " << secondLargest << endl;
     return largest;
