@@ -7,7 +7,7 @@ int secLarge(int arr[], int n)
     int secondLargest = -1;
 
     // by using below code we are solving this problem in TC= O(n)
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i < n; i++)
     {
         if (arr[i] > largest)
         {
@@ -21,7 +21,7 @@ int secLarge(int arr[], int n)
     }
 
     // this below code will cause TC = O(2n) because one loop for largest element is running above and second one is running here
-    // for (int i = 0; i < n; i++)
+    // for (int i = 1; i < n; i++)
     // {
     //     if (arr[i] > secondLargest && arr[i] != largest)
     //     {
