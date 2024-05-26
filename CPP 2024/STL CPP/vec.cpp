@@ -13,5 +13,6 @@ int main()
         cout << myVector[i] << " ";
     }
     cout << endl;
+    cout << myVector.at(10);
     return 0;
 }
