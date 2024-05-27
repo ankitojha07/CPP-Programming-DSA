@@ -1,16 +1,48 @@
 #include <iostream>
 using namespace std;
 
-int primeNumber(int n)
+bool isPrime(long int n)
 {
-    int i = 1;
-    while (n > 0){
-        
+    long int count = 0;
+    for (long int i = 1; i <= n; i++)
+    {
+        if (n % i == 0)
+        {
+            count++;
+        }
     }
+    if (count == 2)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+long int findNthPrime(long int target)
+{
+    long int count = 0, i = 1, result = 0;
+    while (count <= target)
+    {
+        if (isPrime(i))
+        {
+            count++;
+            if (count == target)
+            {
+                return i;
+            }
+        }
+        i++;
+    }
+    return -1;
 }
 
 int main()
 {
-    int n = 6;
+    long int target = 10001;
+    long int result = findNthPrime(target);
+    cout << result << endl;
     return 0;
 }
