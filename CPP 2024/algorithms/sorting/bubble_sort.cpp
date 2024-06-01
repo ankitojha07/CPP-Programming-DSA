@@ -8,11 +8,11 @@ int main()
 
     for (int i = 0; i < count; i++)
     {
-        int temp = 0;
         for (int j = 0; j < count; j++)
         {
             if (arr[j] > arr[j + 1])
             {
+                int temp = 0;
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
