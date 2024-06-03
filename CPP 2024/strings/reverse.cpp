@@ -22,20 +22,20 @@ public:
 int main()
 {
     Solution st;
-    vector<char> *s = new vector<char>();
-    s->push_back('H');
-    s->push_back('E');
-    s->push_back('L');
-    s->push_back('L');
-    s->push_back('O');
+    vector<char> s;
+    s.push_back('H');
+    s.push_back('E');
+    s.push_back('L');
+    s.push_back('L');
+    s.push_back('O');
 
     cout << endl;
 
     st.reverseString(s);
 
-    for (int i = 0; i < s->size(); i++)
+    for (int i = 0; i < s.size(); i++)
     {
-        cout << (*s)[i] << " ";
+        cout << s[i] << " ";
     }
 
     cout << endl;

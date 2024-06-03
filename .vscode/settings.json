@@ -1,8 +1,14 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
+        "*.embeddedhtml": "html",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "initializer_list": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp"
     },
     "git.ignoreLimitWarning": true
 }
