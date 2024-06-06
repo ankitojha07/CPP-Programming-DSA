@@ -8,8 +8,7 @@ void printName(int i, int n)
         return;
     }
     cout << " RSVP " << endl;
-    i++;
-    printName(i, n);
+    printName(i + 1, n);
 }
 
 int main()
