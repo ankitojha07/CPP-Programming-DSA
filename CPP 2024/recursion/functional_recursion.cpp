@@ -1,3 +1,6 @@
+
+// functional recursion in cpp, a recursive function that returns something.
+
 #include <iostream>
 using namespace std;
 
