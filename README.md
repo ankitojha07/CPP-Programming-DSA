@@ -12,26 +12,26 @@
 
 ### Data Structures and Algorithms (Topic Covered)
 1- Data Structures
-    > Arays
-    > Strings
-    > Linked List
-    > Stack implementation
-    > Strings
-    > Tree
+- Arays
+- Strings
+- Linked List
+- Stack implementation
+- Strings
+- Tree
 
 2- Algorithms
-    > Searching
-        > Linear Search
-        > Binary Search
+- Searching
+    > Linear Search
+    > Binary Search
 
-    > Sorting
-        > Insertion Sort
-        > Selection Sort
-        > Bubble Sort
-        > Merge Sort
+- Sorting
+    > Insertion Sort
+    > Selection Sort
+    > Bubble Sort
+    > Merge Sort
 
 3- Recursion 
-    > Direct Recursion
-    > Indirect Recursion
-    > Tail Recursion
-    > Non-Tail Recursion
+> Direct Recursion
+> Indirect Recursion
+> Tail Recursion
+> Non-Tail Recursion
