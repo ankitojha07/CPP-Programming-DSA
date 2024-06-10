@@ -1,8 +1,8 @@
 # Data Structures and Algorithms in C++
 
 ## Topic Wise Distribution
-1 Programming in C++
-2 Data Structures and Algorithms
+- Programming in C++
+- Data Structures and Algorithms
 
 ### Programming in C++ (Topic Covered)
 - Basic CPP Syntax and Concepts like [Loops, Functions, Variables]

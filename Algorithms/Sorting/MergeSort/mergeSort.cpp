@@ -71,10 +71,10 @@ void mergeSort(int *arr, int start, int end)
     // call merge sort for left part of array to sort
     mergeSort(arr, start, mid);
 
-    // call merge sort for right part of the array
+    // calling merge sort for right part of the array
     mergeSort(arr, mid + 1, end);
 
-    // Now, start merging the both sorted array
+    // start merging the both sorted array
     merge(arr, start, end);
 }
 
