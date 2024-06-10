@@ -8,7 +8,9 @@
         "type_traits": "cpp",
         "vector": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "format": "cpp",
+        "iterator": "cpp"
     },
     "git.ignoreLimitWarning": true
 }
