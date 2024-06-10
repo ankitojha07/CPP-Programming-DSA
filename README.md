@@ -21,17 +21,17 @@
 
 2- Algorithms
 - Searching
-    > Linear Search
-    > Binary Search
+    - Linear Search ,
+    - Binary Search
 
 - Sorting
-    > Insertion Sort
-    > Selection Sort
-    > Bubble Sort
-    > Merge Sort
+    - Insertion Sort ,
+    - Selection Sort ,
+    - Bubble Sort ,
+    - Merge Sort ,
 
-3- Recursion 
-> Direct Recursion
-> Indirect Recursion
-> Tail Recursion
-> Non-Tail Recursion
+- Recursion 
+    - Direct Recursion
+    - Indirect Recursion
+    - Tail Recursion
+    - Non-Tail Recursion
