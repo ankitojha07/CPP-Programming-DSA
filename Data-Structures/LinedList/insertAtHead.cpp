@@ -14,17 +14,19 @@ public:
     }
 };
 
-node *insertAtTail(node *&tail, int data)
+node *insertAtHead(node *&head, int data)
 {
     node *temp = new node(data);
-    tail->next = temp;
-    tail = temp;
 
-    return tail;
+    temp->next = head;
+    head = temp;
+
+    return head;
 }
 
 void print(node *head)
 {
+
     while (head != NULL)
     {
         cout << head->data << " ";
@@ -35,16 +37,14 @@ void print(node *head)
 
 int main()
 {
-    int data = 12;
-    node *n = new node(data);
+    node *n1 = new node(1);
 
-    node *head = n;
-    node *tail = n;
+    node *head = n1;
+    node *tail = n1;
 
-    insertAtTail(tail, 34);
-    insertAtTail(tail, 76);
-    insertAtTail(tail, 89);
+    insertAtHead(head, 98);
+    insertAtHead(head, 9);
+    insertAtHead(head, 8);
     print(head);
-
     return 0;
 }
