@@ -10,7 +10,9 @@
         "xstring": "cpp",
         "xutility": "cpp",
         "format": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "iomanip": "cpp",
+        "ios": "cpp"
     },
     "git.ignoreLimitWarning": true
 }
